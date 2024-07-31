@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, url_for, flash
 from flask_sqlalchemy import SQLAlchemy
 from forms import ToDoForm
-
+# karthik
 app = Flask(__name__)
 app.config.from_object('config.Config')
 db = SQLAlchemy(app)
